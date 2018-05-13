@@ -28,26 +28,26 @@ The scenario unfolds as follows:
 
 Part one: Turtlebot
 1. Controller
-  1. Joy2Twist Package
-  2. Why not turtlebot_teleop?
+  * Joy2Twist Package
+  * Why not turtlebot_teleop?
 
 2. Mapping
-  1. Launch Files
+  * Launch Files
 3. navigation
-  1. Launch Files
-  1. Assign a goal
-  1. Obstacle avoidance
-  1. Problems encountered
+  * Launch Files
+  * Assign a goal
+  * Obstacle avoidance
+  * Problems encountered
 
 Part Two: Robotic arm
 1. First impressions
-  1. Arbotix_GUI
-  2. Problems encountered
+  * Arbotix_GUI
+  * Problems encountered
 2. Building the scene
-  1. Python script
-  1. Time threshold
+  * Python script
+  * Time threshold
 3. Executing the scenario
-    1. Launch Files
+    * Launch Files
     
 Conclusion
 
