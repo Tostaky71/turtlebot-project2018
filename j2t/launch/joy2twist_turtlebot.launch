@@ -1,0 +1,10 @@
+<launch>
+	<!--include file="$(find turtlebot_bringup)/launch/minimal.launch" /-->
+<!--rosrun rviz rviz -d `rospack find rbx1_nav`/sim.rviz-->
+	<node pkg="joy" type="joy_node" name="joynInterface">
+		<param name="autorepeat_rate" value="10.0" />	<!-- we added this line/-->
+	</node>
+	<node pkg="joy2twist" name="j2t" type="j2t.py" />
+	<!--remap from="/cmd_vel" to="/cmd_vel_mux/input/teleop" /-->
+	<!--node pkg="rviz" type="rviz" name="rvizturbot" args="-d $(find rbx1_nav)/sim.rviz" /-->
+</launch>

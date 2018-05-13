@@ -1,0 +1,7 @@
+<launch>
+	<include file = "$(find turtlebot_rviz_launchers)/launch/view_navigation.launch" />
+		<!--This line starts the mapping on Rviz/-->
+
+	<include file = "$(find joy2twist)/launch/joy2twist_turtlebot.launch" />
+		<!--This line defines how to control the robot/-->
+</launch>

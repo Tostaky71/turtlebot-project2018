@@ -1,0 +1,8 @@
+<launch>
+        <include file = "$(find turtlebot_arm_bringup)/launch/arm.launch" />
+        <include file = "$(find turtlebot_arm_moveit_config)/launch/turtlebot_arm_moveit.launch" />
+                <!--These lines allow us to start working with the robot arm on Rviz./-->
+
+        <node pkg = "turtlebot_arm_moveit_demos" name = "new_pick_and_place" type = "new_pick_and_place.py"/>
+                <!--With this line, the robot starts the simulation given by the python file./-->
+</launch>

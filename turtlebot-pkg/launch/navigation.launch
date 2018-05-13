@@ -1,0 +1,6 @@
+<launch>
+	<include file="$(find turtlebot_le2i)/launch/rplidar_minimal.launch" />
+	<include file="$(find turtlebot_navigation)/launch/amcl_demo.launch">
+		<!--remap from="map_file" to="/home/turtlebot/ros/indigo/catkin_ws/src/untitled01/map.yaml" /-->
+	</include>
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+	<include file = "$(find turtlebot_le2i)/launch/rplidar_minimal.launch" />
+		<!--This line activates the lidar/-->
+
+	<include file = "$(find turtlebot_navigation)/launch/gmapping_demo.launch" />
+		<!--This line activates the mapping on the turtlebot/-->
+</launch>
